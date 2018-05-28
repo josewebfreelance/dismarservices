@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.dismar.myapp",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "4.14.4",
+    "baseName": "dismarservices",
+    "packageName": "com.dismar.myapp",
+    "packageFolder": "com/dismar/myapp",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "35a357061ff96156b76554723277e556d4629f4d",
+    "enableTranslation": true,
+    "applicationType": "uaa",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "clientPackageManager": "yarn",
+    "skipClient": true
+  }
+}
